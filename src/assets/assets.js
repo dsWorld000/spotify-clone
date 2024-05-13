@@ -38,11 +38,23 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+import kahani from './kahani.jpg'
+import guru from './guru.jpg'
+import animal from './animal.jpg'
+import gulabi from './gulabi.jpg'
+import tora from './tora.jpg'
+import queen from './queen.jpg'
+import heeriye from './heeriye.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
 import song4 from  './song4.mp3'
 import song5 from  './song5.mp3'
+import song6 from  './song6.mp3'
+import Tora from  './Tora.mp3'
+import myQueen from  './myQueen.mp3'
+import Heeriye from  './Heeriye.mp3'
+import Gulabi from  './gulabi.mp3'
 
 export const assets = {
     bell_icon,
@@ -120,7 +132,7 @@ export const songsData = [
     {
         id:0,
         name: "Song One",
-        image: img1,
+        image: kahani,
         file:song1,
         desc:"_Kahani Suno_ (pagalworld.com)",
         duration:"3:00"
@@ -128,7 +140,7 @@ export const songsData = [
     {
         id:1,
         name: "Song Two",
-        image: img2,
+        image: guru,
         file:song5,
         desc:"_Chill Mode_ (pagalworld.com).mp3",
         duration:"2:20"
@@ -136,23 +148,23 @@ export const songsData = [
     {
         id:2,
         name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        image: animal,
+        file:song2,
+        desc:"_Saari Duniya Jalaa Denge (pagalworld)",
         duration:"2:32"
     },
     {
         id:3,
         name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"_Kahani Suno with these happy tunes",
+        image: img1,
+        file:song3,
+        desc:"Put a smile on your face with these happy tunes",
         duration:"2:50"
     },
     {
         id:4,
         name: "Song Five",
-        image: img5,
+        image: img2,
         file:song4,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10"
@@ -160,25 +172,41 @@ export const songsData = [
     {
         id:5,
         name: "Song Six",
-        image: img14    ,
-        file:song5,
-        desc:"_Chill Mode with these happy tunes",
+        image: img12    ,
+        file:song6,
+        desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
     {
         id:6,
         name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"_Kahani Suno with these happy tunes",
+        image: tora,
+        file:Tora,
+        desc:"_Tora (pagalworld) Sumit Goswami",
         duration:"2:18"
     },
     {
         id:7,
         name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        image: heeriye,
+        file:Heeriye,
+        desc:"_Heeriye Arijit singh pagalworld",
+        duration:"2:35"
+    },
+    {
+        id:8,
+        name: "Song Nine",
+        image: queen,
+        file:myQueen,
+        desc:"_My-Queen KD DesiRock pagalworld",
+        duration:"2:35"
+    },
+    {
+        id:9,
+        name: "Song Ten",
+        image: gulabi,
+        file:Gulabi,
+        desc:"_Gulabi Saadi pagalworld",
         duration:"2:35"
     }
 ]
